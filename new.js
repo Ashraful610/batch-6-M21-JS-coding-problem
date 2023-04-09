@@ -10,6 +10,9 @@ const firends = [21 ,20 , 23 , 19 ]
 // console.log(Array.isArray(firends) )
 
 const find = firends.includes(23)
-const newFirends = [18 ,19  , 16]
-const allFirends = firends.concat(newFirends)
+const newFirends = [18 ,19  , 16 , 29 , 34 , 44 , 45 , 46 ]
+const someFirends = newFirends.splice(1 , 5 , 232 , 333 , 444)
+console.log(someFirends)
+console.log(newFirends)
+// const allFirends = firends.concat(newFirends)
 // console.log(allFirends)
