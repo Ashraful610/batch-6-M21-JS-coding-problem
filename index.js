@@ -16,6 +16,8 @@ var result2 = Math.ceil(3.23)
 var result3 = Math.floor(3.23)
 var result4 = Math.random() 
 
-var result5 = Math.round(Math.random() * 20)
+for(var i =1 ; i <= 20 ; i++){
 
-console.log(result5);
+    var result5 = Math.round(Math.random() * 20)
+    console.log(result5);
+}
