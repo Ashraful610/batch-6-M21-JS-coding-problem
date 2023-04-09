@@ -19,5 +19,5 @@ var result4 = Math.random()
 for(var i =1 ; i <= 20 ; i++){
 
     var result5 = Math.round(Math.random() * 20)
-    console.log(result5);
 }
+console.log(result5);
